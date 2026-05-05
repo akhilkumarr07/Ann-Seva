@@ -1,77 +1,70 @@
-# Annseva - Food Donation Platform
+# Getting Started with Create React App
 
-## 📌 Project Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Annseva is a food donation platform that connects **donors**, **recipients**, and **volunteers** to help combat food waste and hunger. The platform allows food donors to contribute surplus food, recipients to request food donations, and volunteers to assist in transporting food to those in need.
+## Available Scripts
 
-## ✨ Key Features
+In the project directory, you can run:
 
-- 📢 **Emergency Food Requests** – Recipients can raise urgent food requests.
-- 🎁 **Easy Donation Process** – Donors can list food items, specify quantity, shelf life, and upload images.
-- 🚗 **Volunteer Assistance** – Volunteers receive notifications and can help transport food.
-- 📍 **Location-Based Matching** – Uses geolocation to match donors and recipients nearby.
-- 🔔 **Real-time Notifications** – Users receive updates on food requests, donations, and delivery status.
-- 📊 **Impact Metrics** – Tracks donations, recipients helped, and volunteer contributions.
+### `npm start`
 
-## 🛠️ Technologies Used
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Frontend:** React.js, Tailwind CSS, React Bootstrap
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JWT Authentication
-- **APIs & Services:** Google Maps API (for location), Nodemailer (for email notifications)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🚀 Installation & Setup
+### `npm test`
 
-### Prerequisites:
-- Node.js (v16+)
-- MongoDB (running locally or via a cloud service like MongoDB Atlas)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Steps to Run:
+### `npm run build`
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/tharun2107/annseva.git
-   cd annseva
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3. Create a `.env` file in the root directory and add necessary environment variables:
-   ```sh
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4. Start the backend server:
-   ```sh
-   cd backend
-   node index.js
-   ```
+### `npm run eject`
 
-5. Start the frontend:
-   ```sh
-   cd frontend
-   npm start
-   ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-6. Open the app in the browser:
-   ```
-   http://localhost:3000
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 📸 Screenshots
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-![Annseva Homepage](https://your-image-link.com)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 📬 Contact
+## Learn More
 
-If you have any questions, feel free to reach out!
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- **Developer:** Annseva Team
-- **Email:** annsevaord@example.com
-- **GitHub:** [tharun2107](https://github.com/yourusername)
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
